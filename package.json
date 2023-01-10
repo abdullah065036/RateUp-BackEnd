@@ -1,0 +1,37 @@
+{
+  "homepage": "https://github.com/belferink1996/MERN-template#readme",
+  "name": "mern-application",
+  "version": "0.1.0",
+  "description": "<img src='https://github.com/belferink1996/MERN-template/blob/images/images/mern.jpeg' alt='MERN banner' width='700' />",
+  "private": true,
+  "main": "index.js",
+  "license": "ISC",
+  "keywords": [],
+  "author": "Ben Elferink <ben.elferink@icloud.com> (https://www.linkedin.com/in/ben-elferink-37ba251b9)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/belferink1996/MERN-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/belferink1996/MERN-template/issues",
+    "email": "ben.elferink@icloud.com"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "delete-modules": "rm -r ./node_modules && cd ./server && rm -r ./node_modules && cd ../client && rm -r ./node_modules"
+  },
+  "devDependencies": {
+    "concurrently": "^6.3.0"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "joi": "^17.7.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.7.2",
+    "nodemailer": "^6.8.0",
+    "nodemon": "^2.0.20"
+  }
+}
